@@ -1,0 +1,182 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  color: #fff;
+
+  position: absolute;
+  left: 64px;
+  top: 162px;
+
+  opacity: 0;
+
+  animation: fade-in 1s linear forwards;
+}
+
+#narwhal-eye {
+  opacity: 0;
+
+  animation: fade-in 1s .5s linear forwards;
+}
+
+@keyframes fade-in {
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-body {
+  animation: body-animate 1s linear forwards;
+
+  stroke-dasharray: 1982px;
+  stroke-dashoffset: 1982px;
+}
+
+@keyframes body-animate {
+
+  0% {
+    stroke-dashoffset: 1982px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-violet {
+  animation: violet-animate 1s linear forwards;
+
+  stroke-dasharray: 1918px;
+  stroke-dashoffset: 1918px;
+}
+
+@keyframes violet-animate {
+
+  0% {
+    stroke-dashoffset: 1918px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-indigo {
+  animation: indigo-animate 1s linear forwards;
+
+  stroke-dasharray: 1812px;
+  stroke-dashoffset: 1812px;
+}
+
+@keyframes indigo-animate {
+
+  0% {
+    stroke-dashoffset: 1812px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-blue {
+  animation: blue-animate 1s linear forwards;
+
+  stroke-dasharray: 1705px;
+  stroke-dashoffset: 1705px;
+}
+
+@keyframes blue-animate {
+
+  0% {
+    stroke-dashoffset: 1705px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-green {
+  animation: green-animate 1s linear forwards;
+
+  stroke-dasharray: 1596px;
+  stroke-dashoffset: 1596px;
+}
+
+@keyframes green-animate {
+
+  0% {
+    stroke-dashoffset: 1596px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-yellow {
+  animation: yellow-animate 1s linear forwards;
+
+  stroke-dasharray: 1483px;
+  stroke-dashoffset: 1483px;
+}
+
+@keyframes yellow-animate {
+
+  0% {
+    stroke-dashoffset: 1483px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-orange {
+  animation: orange-animate 1s linear forwards;
+
+  stroke-dasharray: 1366px;
+  stroke-dashoffset: 1366px;
+}
+
+@keyframes orange-animate {
+
+  0% {
+    stroke-dashoffset: 1366px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-red {
+  animation: red-animate 1s linear forwards;
+
+  stroke-dasharray: 1243px;
+  stroke-dashoffset: 1243px;
+}
+
+@keyframes red-animate {
+
+  0% {
+    stroke-dashoffset: 1243px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+
+}
